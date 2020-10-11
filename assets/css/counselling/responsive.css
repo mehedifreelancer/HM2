@@ -1,0 +1,222 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /* .sidebar-icon {
+        position: absolute;
+        top: -62px;
+    } */
+    .sidebar-icon i {
+        text-align: center;
+        color: #ffffff;
+        background: #c97a70;
+        margin: 10px;
+     
+    }
+    .real-wedding-img a img {
+       /* width: 66%; */
+    border-radius: 50%;
+    transform: translateX(79px);
+    }
+    .real-wedding-img {
+        width: 200px;
+        height: auto;
+        margin-right: 20px;
+        transform: translateX(-50%);
+        /* new updated */
+        padding: 20px;
+     
+    }
+    .real-wedding-title{
+        font-size: 15px;
+    }
+    .story-msg{
+      
+        font-weight: 400;
+        margin: 15px;
+        margin-bottom: 15px;
+    }
+    .module .mobileapp-img img{
+        width: 214px;
+    }
+    section.module h2{
+        font-size: 16px;
+    }
+    section.module p{
+        font-size: 14px;
+        padding-bottom: 0px;
+    }
+    .section-title h2{
+        font-size: 16px;
+    }
+    .section-title p{
+        font-size: 13px;
+    }
+    .section-space40 .contact{
+        width: 20%;
+    }
+    .section-space40 img{
+        width: 20%;
+    }
+    .member-ship img{
+     height: auto;
+    }
+    .feature-info h3{
+        font-size: 14px;
+    color: #333;
+    font-weight: 600;
+     margin-top: 2px;
+    }
+    .nw-btn{
+        padding: 7px 15px;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: -4px;
+    background: #101a4d !important;
+    color: #fff !important;
+    border-radius: 20px;
+    }
+    .glry img{
+/*        width: 80%;*/
+    }
+    .myButton {
+        font-size: 12px;
+        padding: 7px 12px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .rating,
+    label.rating_type {
+        float: left;
+        display: block
+    }
+
+    label.rating_type {
+        width: 100%
+    }
+
+    #map_contact {
+        height: 300px
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .margin_60,
+    .margin_60_35 {
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+
+    #form_container .row > [class*=col-] {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    h1.main_title,
+    h2.main_title {
+        font-size: 32px
+    }
+
+    h1.main_title span,
+    h2.main_title span {
+        font-size: 18px
+    }
+
+    p.lead.styled {
+        font-size: 16px
+    }
+
+    #left_form img {
+        float: none;
+        margin-right: 0;
+        width: 100px;
+        height: 100%
+    }
+
+    .margin_30 {
+        margin-top: 15px;
+        margin-bottom: 15px
+    }
+
+    .add_bottom_60 {
+        margin-bottom: 30px
+    }
+
+    #bottom-wizard {
+        right: 35px
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #left_form,
+    #wizard_container {
+        min-height: inherit
+    }
+
+    #form_container {
+        width: auto;
+        margin-top: 0
+    }
+
+    #form_container .row {
+        margin: 0
+    }
+
+    footer#home {
+        width: 100%;
+        padding: 0 30px
+    }
+
+    #left_form {
+        text-align: left;
+        padding: 30px
+    }
+
+    #left_form img {
+        float: left;
+        margin-right: 30px
+    }
+
+    a#more_info {
+        left: auto;
+        right: 30px
+    }
+
+    #top-wizard {
+        margin-left: 0
+    }
+
+    #middle-wizard {
+        padding: 30px 30px 120px
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    #form_container,
+    footer#home {
+        width: 800px
+    }
+}
+
+
+/* 
+.header-btns .phone li a 
+.ripplelink 
+
+*/
+
+@media (max-width: 1078px) { 
+    .header-btns .phone li a {
+        font-size: 13px;
+    }
+    .ripplelink {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:766px) and (min-width:322px) {
+  
+}

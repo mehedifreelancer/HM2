@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*logo*/
+
+.navbar .login_button{
+    float: right;
+}
+.navbar .login_button a{
+    background: #1C3554;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+.navbar .login_button a:hover{
+    background: #C97A70;
+}
+
+
+.navbar-brand img{
+    border-radius: 50%;
+    margin-left: 40px;
+    width: 70px;
+    height: 70px;
+    padding-bottom: 2px;
+}
+
+#navbar ul li a{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+/*logo ends*/
+
+
+/*navbar starts*/
+
+/*navbar ends*/
+
+
+.main{
+    
+	background-image: url("../../assets/img/skulls.png");
+       background-repeat: no-repeat;
+    background-size:cover;
+	background-position: center;
+    background-color: rgba(241, 241, 241, 0.85);
+}
+
+/* body starts*/
+.about-heading {
+    width: 100%;
+	background:url("../img/WhatsApp%20Image%202020-09-23%20at%2010.25.01%20AM.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center; 
+    background-attachment: fixed;
+ 
+}
+
+.about-heading .hover{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+ 
+    
+}
+
+.about-heading h1{
+    color: #fff;
+   font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-top: 50px;
+
+/*background: #e7e5e4;*/
+
+    
+}
+
+
+.about-heading .text-center p{
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    padding-bottom: 80px;
+}
+/*office location starts*/
+
+
+.officeadd-section{
+/*    background: #23108d;*/
+}
+.officeadd-section h4:hover{
+    background: #C0324D;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.officeadd-section h5 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    border-left: none;
+    background: #07123F;
+    padding: 15px 5px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.gurgaonadd:hover h5{
+    background: #C0324D;
+    border-radius: 20px;
+  background: border-radius: 50%;
+  color: #fff;
+ -webkit-box-shadow: 9px -12px 23px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px -12px 23px -9px rgba(0,0,0,0.75);
+box-shadow: 9px -12px 23px -9px rgba(0,0,0,0.75);
+    
+    
+}
+
+.office-hours:hover h5{
+    background: #C0324D;
+    border-radius: 20px;
+    color: #fff;
+-webkit-box-shadow: 9px -12px 23px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px -12px 23px -9px rgba(0,0,0,0.75);
+box-shadow: 9px -12px 23px -9px rgba(0,0,0,0.75);
+    
+}
+
+.officeadd-section ul li{
+ color: #000;
+font-family: 'Hind', sans-serif;
+/*    font-family: 'Crimson Text', serif;*/
+    font-weight: 500;
+  
+}
+.officeadd-section ul li strong{
+   font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    color: #286090;
+}
+
+.officeadd-section h4{
+      font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+
+.officeadd-section ul li a{
+    font-size: 200px;
+        
+}
+.officeadd-section ul li{
+    color: #000;
+}
+
+
+.office-hours{
+    background: none;
+}
+.officeadd-section{}
+
+
+/*office location ends*/
+
+/*form part*/
+
+
+.content p{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.contactus-section {
+	background: #fff;
+	padding: 40px;
+	width: 100%;
+}
+
+
+
+.contactus-section p {
+	margin-bottom: 50px;
+}
+.contactus-section input {
+	border-radius: 2px;
+}
+.contactus-section textarea {
+	border-radius: 3px;
+}
+
+
+input.form-control{
+    background: #f1f1f1;
+}
+
+textarea.form-control{
+    background: #f1f1f1;
+}
+/*ofc location part*/
+
+.officeadd-section {
+    
+   color: #000;
+}
+
+
+/*send button*/
+.button{
+    background: #286090;
+    border-radius: 5px;
+}
+.button:hover{
+   color: #fff;
+    background: #C0324D;
+        -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    
+}
+    
+
+
+.button-holder{
+    transition: all line
+}
+/*ofc location part*/ 
+/*body ends*/
+
+.footer_contact .list li {
+
+    -webkit-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+}
+
+.footer_contact .list li:hover {
+    padding-left: 5px;
+    -webkit-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+}
+.footer_contact{
+    background: #0C0F40;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.footer_contact .icons {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+
+}
+
+.footer_contact .icons:hover{
+   -webkit-box-shadow: 0px 0px 33px -6px rgba(0,255,235,1);
+-moz-box-shadow: 0px 0px 33px -6px rgba(0,255,235,1);
+box-shadow: 0px 0px 33px -6px rgba(0,255,235,1);
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+
+
+}
+
+
+.footer_contact .icons_one {
+    background: #fff;
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+
+
+}
+
+
+.footer_contact .showmore {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+    color: #59D48F;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px 100px / 120px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+
+.footer_contact .footer-two h4{
+    color: #ff0076;
+}
+.footer_contact .showmore:hover {
+    color: #37fa7a;
+    border: 1px solid #37fa7a;
+
+}
+/*
+.footer-two h4 {
+    color: #C0324D;
+}
+*/
+
+/*
+show more
+
+.social-icons .fa.utube {
+    background: #f01010;
+}
+
+.social-icons .fa.chat {
+    background: #09d34f;
+}
+
+.social-icons .fa-yahoo {
+    background: #6001D2;
+}
+
+.social-icons .fa-link {
+    background: #3C599F;
+}
+
+.social-icons .fa-whatsapp {
+    background: #2AA91A;
+}*/

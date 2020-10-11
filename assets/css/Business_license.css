@@ -1,0 +1,29 @@
+.bg_license {
+    background: url("../images/bg-banner.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.bg_license .cover {
+    background: rgba(0, 0, 0, 0.596);
+}
+
+.bg_license .text {
+    padding: 100px 0px;
+    color: #fff;
+}
+
+.bg_license .text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+.bg_license .text p {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0px 20px;
+}

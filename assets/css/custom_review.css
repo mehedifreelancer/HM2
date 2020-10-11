@@ -1,0 +1,15 @@
+.navbar .login_button{
+    float: right;
+}
+.navbar .login_button a{
+    background: #1C3554;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+.navbar .login_button a:hover{
+    background: #B41E4D;
+}

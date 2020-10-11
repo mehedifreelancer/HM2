@@ -1,0 +1,48 @@
+.navbar .login_button{
+    float: right;
+}
+.navbar .login_button a{
+    background: #1C3554;
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+.navbar .login_button a:hover{
+    background: #B41E4D;
+}
+.card .card-body h3{
+    font-size: 20px !important;
+}
+.card .card-body .clearfix{
+    padding: 5px 0px;
+}
+.careerCard{
+    border: 1px solid white;
+    padding: 15px;
+    margin: 40px auto;
+
+}
+
+.careerBg{
+    background-image: url("../images/bg-banner.jpg");
+    height: 300px;
+}
+.careerBg h2{
+    padding: 120px 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 769px) {
+    .main {
+        margin-top: -40px;
+    }
+  }
+  .officeadd-section ul li {
+
+    list-style: none;
+}

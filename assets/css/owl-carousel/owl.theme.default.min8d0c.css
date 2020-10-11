@@ -1,0 +1,200 @@
+/**
+ * Owl Carousel v2.2.1
+ * Copyright 2013-2017 David Deutsch
+ * Licensed under  ()
+ */
+ .thumbnail {
+    display: block;
+    padding: 0px;
+    margin: 1px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.42857143;
+    background-color: #f5eee6;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.thumbnail .caption {
+    padding: 5px;
+    color: #333;
+	background:#fff;
+}
+
+.thumbnail .caption h4{
+	padding:5px 0 3px 0px;
+	margin:0px;
+	font-size:14px;
+	width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	}
+.thumbnail .caption h4 a{
+	color:#3a3a3a;
+	text-decoration:none;
+	}
+.thumbnail .caption p{
+	font-size:11px;
+	margin-top:5px;
+	min-height: 30px;
+	font-weight: normal;
+	max-width:100%;
+	}
+	
+
+.dash-matche-listing .thumbnail a>img, .thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+.dash-matche-listing .customNavigation {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: calc(50% - 37px);
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.dash-matche-listing .customNavigation > span {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
+}
+.dash-matche-listing .pager-left {
+  left: calc(0% + 15px);
+}
+.dash-matche-listing .pager-right {
+  right: calc(0% + 15px);
+}
+.dash-matche-listing .next, .dash-matche-listing .prev {
+  font-size: 35px;
+  color: #ccc;
+}
+
+
+ 
+ 
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+	text-align: center;
+	
+	-webkit-tap-highlight-color: transparent
+}
+.owl-theme .owl-dots{
+	display:none
+	}
+.owl-theme .owl-nav {
+	position:absolute;
+	top: 22%;
+	width: 100%;
+}
+.owl-theme .owl-nav [class*=owl-] {
+	color: #FFF;
+	font-size: 35px;
+	margin:0px;
+	padding: 0px 12px;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 3px
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+	color:#fff;
+	text-decoration: none
+}
+.owl-theme .owl-nav [class*=owl-]{
+	background:rgba(0, 0, 0, 0.42);
+    padding: 0px 5px;
+	border-radius:0px;
+	margin:5px;
+}
+.owl-theme .owl-nav .disabled {
+	opacity: .5;
+	cursor: default
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+	margin-top: 10px
+}
+.owl-theme .owl-dots .owl-dot {
+	display: inline-block;
+	zoom: 1
+}
+.owl-theme .owl-dots .owl-dot span {
+	width: 10px;
+	height: 10px;
+	margin: 5px 7px;
+	background: #D6D6D6;
+	display: block;
+	-webkit-backface-visibility: visible;
+	transition: opacity .2s ease;
+	border-radius: 30px
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: #869791
+}
+
+
+
+
+
+.invitations-recieved-section .owl-theme .owl-dots, .invitations-recieved-section .owl-theme .owl-nav {
+	text-align: center;
+	
+	-webkit-tap-highlight-color: transparent
+}
+.invitations-recieved-section .owl-theme .owl-dots{
+	display:none
+	}
+.invitations-recieved-section .owl-theme .owl-nav {
+	position:absolute;
+	top: -15%;
+	width:auto;
+	right:0px;
+	margin-top:0px
+}
+.invitations-recieved-section .owl-theme .owl-nav [class*=owl-] {
+	color: #FFF;
+	font-size: 20px;
+	background:#cd3162;
+	margin: 0px;
+	padding:0px 7px;
+	display: inline-block;
+	cursor: pointer;
+	border-radius:0px
+}
+.invitations-recieved-section .owl-theme .owl-nav [class*=owl-]:hover {
+	color:#cbcbcb;
+	text-decoration: none
+}
+.invitations-recieved-section .owl-theme .owl-nav .disabled {
+	opacity: .5;
+	cursor: default
+}
+.invitations-recieved-section .owl-theme .owl-nav.disabled+.owl-dots {
+	margin-top: 10px
+}
+
+
+@media (max-width:767px){
+.dash-matche-listing .thumbnail a>img, .thumbnail>img {
+    height: 290px;
+	}
+.thumbnail .caption p{
+	max-width:100%;
+	}
+	
+	
+}
+
+
+
+
+

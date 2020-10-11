@@ -1,0 +1,710 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bg_banner {
+    margin-bottom: 100px;
+    height: 400px;
+    background: url(../images/bnr3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bg_banner .navbar-brand img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+#bg_banner .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+
+#bg_banner .navbar ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    -webkit-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+}
+
+#bg_banner .navbar ul li .dropdown-menu {
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+}
+
+#bg_banner .navbar ul li a:hover {
+    color: #28A745;
+    -webkit-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+}
+
+#bg_banner h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 30px;
+}
+
+#bg_banner p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+#bg_banner .profile {
+    position: absolute;
+    z-index: 5555;
+    width: 15%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+    -webkit-box-shadow: 0px 17px 30px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 17px 30px -12px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0px 17px 30px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 17px 30px -12px rgba(0, 0, 0, 0.75);
+}
+
+/*banner part ends*/
+
+#bg_body .profile_list .profile_list_item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #227ea0;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 50px;
+    -webkit-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+}
+
+#bg_body .profile_list .profile_list_item:first-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #227ea0;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    -webkit-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+}
+
+#bg_body .profile_list .profile_list_item a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+#bg_body .profile_list .profile_list_item:hover {
+    color: #fff;
+    background: #218b39;
+    cursor: pointer;
+    -webkit-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+}
+/*member part start*/
+#bg_body .member {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+}
+
+#bg_body .member i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 28px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+/*member part ends*/
+/*introduction part starts*/
+#bg_body .introduction{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+#bg_body .introduction h4{
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .introduction i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+/*introduction part ends*/
+
+/*basic_info part starts*/
+#bg_body .basic_info{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .basic_info i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .basic_info table tr td{
+    padding: 5px;
+}
+#bg_body .basic_info table tr td:first-child{
+    padding-right: 100px;
+}
+/*basic_info part ends*/
+
+/*present_address part starts*/
+#bg_body .present_address{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .present_address i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .present_address p i{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 62px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#bg_body .present_address table tr td{
+    padding: 5px;
+}
+#bg_body .present_address table tr td:first-child{
+    padding-right: 100px;
+}
+/*present_address part ends*/
+
+/*education part starts*/
+#bg_body .education {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .education i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .education p i{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 62px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .education table tr td{
+    padding: 5px;
+}
+#bg_body .education table tr td:first-child{
+    padding-right: 100px;
+}
+/*education part ends*/
+
+/*physical part starts*/
+#bg_body .physical{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .physical i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .physical p i{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 62px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .physical table tr td{
+    padding: 5px;
+}
+#bg_body .physical table tr td:first-child{
+    padding-right: 100px;
+}
+
+/*physical part ends*/
+
+/*language part starts*/
+#bg_body .language{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .language i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .language p i{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 62px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .language table tr td{
+    padding: 5px;
+}
+#bg_body .language table tr td:first-child{
+    padding-right: 100px;
+}
+
+/*language part starts*/
+
+/*hobbies part starts*/
+#bg_body .hobbies{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .hobbies i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .hobbies p i{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 62px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .hobbies table tr td{
+    padding: 5px;
+}
+#bg_body .hobbies table tr td:first-child{
+    padding-right: 100px;
+}
+/*hobbies part ends*/
+
+/*behavior part starts*/
+#bg_body .behavior{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .behavior i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .behavior p i{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 62px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .behavior table tr td{
+    padding: 5px;
+}
+#bg_body .behavior table tr td:first-child{
+    padding-right: 100px;
+}
+/*behavior part ends*/
+
+/*spiritual part starts*/
+#bg_body .spiritual{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .spiritual i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .spiritual p i{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 62px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .spiritual table tr td{
+    padding: 5px;
+}
+#bg_body .spiritual table tr td:first-child{
+    padding-right: 100px;
+}
+/*spiritual part ends*/
+
+/*life_style part starts*/
+#bg_body .life_style{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .life_style i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .life_style p i{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 62px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .life_style table tr td{
+    padding: 5px;
+}
+#bg_body .life_style table tr td:first-child{
+    padding-right: 100px;
+}
+/*life_style part ends*/
+
+/*astronomic part starts*/
+#bg_body .astronomic{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .astronomic i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .astronomic p i{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 62px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .astronomic table tr td{
+    padding: 5px;
+}
+#bg_body .astronomic table tr td:first-child{
+    padding-right: 100px;
+}
+/*astronomic part ends*/
+
+/*parmanent_address part starts*/
+#bg_body .parmanent_address{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .parmanent_address i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .parmanent_address p i{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 62px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .parmanent_address table tr td{
+    padding: 5px;
+}
+#bg_body .parmanent_address table tr td:first-child{
+    padding-right: 100px;
+}
+/*parmanent_address part ends*/
+
+/*family_Information part starts*/
+#bg_body .family_Information{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .family_Information i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .family_Information p i{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 62px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .family_Information table tr td{
+    padding: 5px;
+}
+#bg_body .family_Information table tr td:first-child{
+    padding-right: 100px;
+}
+/*family_Information part ends*/
+
+/*personal_details part starts*/
+#bg_body .personal_details{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+#bg_body .personal_details i{
+    background: #227ea0;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .personal_details p i{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    right: 62px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#bg_body .personal_details table tr td{
+    padding: 5px;
+}
+#bg_body .personal_details table tr td:first-child{
+    padding-right: 100px;
+}
+/*personal_details part ends*/

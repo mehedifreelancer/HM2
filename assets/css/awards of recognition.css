@@ -1,0 +1,40 @@
+.bg_header{
+    background: url(../images/happystorie_bg.png) no-repeat center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.bg_header .awerds_overlay{
+    background: rgba(0, 0, 0, 0.6);
+}
+.bg_header h2{
+    padding: 100px 0px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.awards{
+    margin: 10px 0px;
+    color: #000;
+}
+
+.awards p, h2{
+    margin: 5px 15px;
+}
+.awards h2{
+    padding-top: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+
+
+
+@media screen and (max-width: 769px) {
+    .bg_header {
+        margin-top: -60px;
+    }
+  }

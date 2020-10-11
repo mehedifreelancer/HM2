@@ -1,0 +1,467 @@
+@media(min-width:992px) and (max-width:1199px) {
+    .btn-big {
+        margin-top: 10px !important;
+    }
+}
+
+@media(min-width: 768px) and (max-width:991px) {}
+
+@media(max-width:767px) {
+    .sidebar-icon{
+    text-align: center;
+    color: #ffffff;
+    background: #c97a70;
+    margin: 11px;
+    font-size: 14px;
+    margin-top: 28px;
+    padding: 0px 9px;
+    }
+    /* .real-wedding-img a img{
+        width: 75%;
+    height: auto;
+    transform: translateX(175%);
+        margin-top: 50px;
+        margin-bottom: 30px;
+    } */
+    .bgb{
+        display: inline-block;
+    }
+    .member-ship img{
+        margin-left: 20px;
+    margin-right: 20px;
+    }
+    
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    .custom-select {
+        background: #fff;
+        margin: 2px;
+        border-radius: 3px;
+    }
+
+    .mobile-ham {
+        position: absolute;
+        right: 5px;
+        top: -4px;
+        display: none;
+    }
+
+    .find-section {
+        margin-top: 297px;
+        padding-top: 0;
+    }
+
+    .search-section {
+        margin-left: 40px;
+    }
+
+    .btn-lgg {
+        padding: 5px 9px;
+        font-size: 16px;
+        margin: 5px 0px 0px 5px;
+    }
+
+    /* .real-wedding-img a img {
+        width: 75%;
+        height: auto;
+    } */
+
+
+    
+    .module .mobileapp-img img{
+   
+    }
+
+    .well-box {
+        padding: 10px;
+    }
+
+    .section-space40 .contact {
+        width: 16%;
+    }
+
+    .section-space40 img {
+        width: 16%;
+        margin-bottom: 0px;
+    }
+
+    .btn-big {
+        padding: 8px 15px;
+    }
+
+    .ripplelink {
+        font-size: 10px;
+    }
+
+    .member-ship img {
+        height: auto;
+        width: 127px !important;
+    }
+
+    .vid-info {
+        border: none;
+    }
+
+
+
+    .bg_counter .counter_part .coun {
+        font-size: 30px;
+    }
+    .section-title h2{
+        font-size: 27px;
+    }
+    .footer-two h4{
+        font-size: 20px;
+    }
+    .footer-two ul li a{
+        font-size: 18px;
+    }
+    
+    
+/*    cumtomer review rating*/
+    .sidebar-icon{
+   
+        background: none;
+        top: -40px !important;
+        background: none;
+        color: white;
+        background: #c97a70;
+        margin-top: 72px;
+        padding: 7px 19px;
+        }
+    }
+    
+}
+
+@media(min-width: 320px) and (max-width:575px) {
+    .sidebar-icon {
+        top: -62px;
+      
+        background: none;
+    }
+
+    .sidebar-icon i {
+       
+    }
+
+    .ripplelink {
+        font-size: smaller;
+    }
+
+    .section-title h2 {
+        font-size: 33px !important;
+    }
+
+    .section-title p {
+        font-size: 9px;
+    }
+
+    /* .real-wedding-img {
+        transform: translateX(-26%);
+        margin-left: 32%;
+    } */
+
+    .section-title p {
+        font-size: 11px;
+    }
+
+    .feature-info h3 {
+        font-size: 13px;
+    }
+
+
+    .btn-big {
+        margin-top: 12px;
+    }
+    .section-space40 h2{
+        font-size: 33px !important;
+    }
+
+    section.module.parallax-2 {
+        background-position: center;
+    }
+
+    .module .mobileapp-img img {
+        width: 139px;
+        transform: translateX(27px);
+    }
+
+    .member-ship img {
+        width: 70px !important;
+    }
+
+    .glry img {
+        width: 100%;
+
+    }
+
+    .feature-block {
+        display: inline-block;
+/*        transform: translateX(30%);*/
+    }
+
+    .bg_counter .counter_part .coun {
+        font-size: 20px;
+
+    }
+
+    .bg_counter .counter_part {
+        background: #07123F;
+        padding: 10px 0px;
+        border-radius: 20px;
+        display: inline-grid;
+    }
+
+    .btn-big {
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
+    .footer-two ul li a{
+        font-size: 12px;
+    }
+    .footer-two h4{
+        font-size: 15px;
+    }
+    .myButton{
+background-color: #0b5a7b;
+        border: 1px solid #0b5a7b;
+    }
+    
+/*  happy story part start  */
+    
+    #header_part h2{
+        font-size: 30px !important;
+    }
+    #main_body h2{
+        font-size: 18px !important;
+    }
+    #main_body p{
+        font-size: 14px !important;
+        padding: 0px !important;
+        padding-bottom: 20px !important;
+    }
+    #main_body img{
+        margin-bottom: 20px;
+    }
+    
+    
+    
+/*  happy story part ends  */
+    
+/*    customer rating*/
+    
+    .sidebar-icon{
+        top: -63px !important;
+        background: none;
+    }
+    
+        
+    .navbar-brand img{
+       height: 50px !important;
+        width: 50px !important;
+        
+    }
+
+    .navbar-brand img{
+        margin-left: 15px !important;
+    }
+    
+/*  profile page start  */
+    
+    #bg_banner{
+        margin-bottom: 12px !important;
+        height: 20% !important;
+        width: 100%;
+    }
+    #bg_banner h2{
+        font-size: 18px !important;
+        padding-top: 5px !important;
+    }
+    #bg_banner p{
+        font-size: 10px !important;
+    }
+    #bg_banner .profile{
+        width: 15%;
+    height: auto;
+    border-radius: 50%;
+    right: 7px !important;
+    top: 10px !important;
+        margin-top: 0px !important;
+    margin-left: 0px !important;
+    }
+    #bg_body .profile_list .profile_list_item{
+        font-size: 15px !important;
+    }
+    #bg_body .profile_list .profile_list_item a{
+        font-size: 15px !important;
+    }
+    #bg_body .member{
+        font-size: 14px !important;
+    line-height: 0px !important;
+    }
+    #bg_body i{
+        right: 23px !important;
+        height: 35px !important;
+        width: 35px !important;
+        line-height: 35px !important;
+    }
+    #bg_body h4{
+        padding: 0px !important;
+        margin-top: 0px !important;
+        font-size: 11px !important;
+    font-weight: 600 !important;
+    }
+    #bg_body table tr td:first-child{
+        padding-right: 10px !important;
+        font-size: 10px !important;
+        font-weight: 400 !important;
+    }
+    #bg_body .basic_info table tr td{
+        font-size: 10px !important;
+        font-weight: 400 !important;
+    }
+/*  profile page ends  */
+    
+/*  report abouse  */
+    
+    .report_abuse h1{
+        padding: 30px 0px !important;
+        font-size: 25px !important;
+    }
+    .abuse_paragraph h2{
+        font-size: 20px !important;
+        padding-top: 0px !important;
+    }
+    .abuse_paragraph ul li{
+        font-size: 10px !important;
+    }
+    .tiny-footer{
+        font-size: 10px;
+    }
+    .footer .showmore{
+        font-size: 10px !important;
+        padding: 0px 7px;
+    }
+    .footer .icons{
+        width: 22px;
+    }
+    .footer .icons_one{
+        width: 25px;
+        height: auto;
+    }
+    .footer img{
+        width: 60px;
+        height: auto;
+    }
+    
+/*  report abouse  */
+    
+/*  plans start  */
+    
+     
+/*  plans ends  */
+    
+/*  happy story start  */
+    
+    .about-heading1 h1 {
+        font-size: 25px;
+        color: #fff;
+        margin-top: 0px;
+    }
+
+    .HPS p {
+        font-size: 10px;
+    }
+
+    .HS .container_styled_1 .components-content span {
+        font-size: 12px;
+    }
+
+    .HS .container_styled_1 .components-content div p {
+        font-size: 12px !important;
+    }
+    
+/*  happy story ends  */
+    
+}
+
+
+@media (min-width: 320px) and (max-width:480px) {
+    .sidebar-icon{
+
+        top: -40px !important;
+    background: none;
+    color: white;
+    background: #c97a70;
+    margin-top: 73px;
+    }
+  }
+
+
+  @media screen and (max-width: 1208px) {
+    .phone li p{
+      font-size: 12px;
+    }
+    .ripplelink{
+        font-size: 12px;
+    }
+    #HP_Login_CTA{
+        font-size: 12px;
+    }
+  }
+
+
+  @media screen and (max-width: 320px) {
+    .browse-matrimonial .wrapper li {
+        display: table-footer-group;
+        color: #c3c3c3;
+        font-weight: 400;
+        font-size: 13px;
+        width: 16%;
+        text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .header-v2 {
+        background-color: transparent;
+        position: relative;
+        height: 127px;
+        top: -16px;
+        margin: 15px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .bg_counter {
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    .bg_counter .counter_part .coun {
+        font-size: 18px;
+     
+    }
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .bg_counter {
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    .bg_counter .counter_part .coun {
+        font-size: 18px;
+     
+    }
+  }
+
+  @media screen and (max-width: 352px) {
+    .browse{
+        display: none;
+    }
+  }
+
+  

@@ -1,0 +1,32 @@
+.card-inner{
+    margin-left: 4rem;
+}
+.card-body .review_img{
+
+    border-radius: 50%;
+}
+.card p{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.float-left{
+    color: #C9302C;
+}
+.card-inner .name{
+    color: #215577;
+}
+.text-center{
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+.star{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #F7C000;
+}
+.text-secondary{
+    color: #5dea32;
+}

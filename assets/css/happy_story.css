@@ -1,0 +1,47 @@
+#header_part{
+    background: url(../images/happystorie_bg.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#header_part .shadow{
+    background: rgba(0, 0, 0, 0.6);
+}
+#header_part h2{
+    padding: 150px 0px 100px 0px;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+#main_body{
+    margin: 100px 0px 0px 0px;
+}
+#main_body h2{
+    font-family: 'Playfair Display',sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 600;
+    color: #9E1A1F;
+    text-align: center;
+}
+#main_body p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0D8B93;
+    padding: 50px;
+}
+#main_body .date{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0D8B93;
+    padding: none;
+}
+#main_body img{
+    border-radius: 20px;
+}
+
